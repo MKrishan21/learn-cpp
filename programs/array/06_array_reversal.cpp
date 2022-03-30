@@ -3,11 +3,23 @@ using namespace std;
 
 int main()
 {
-    int marks[] = {10, 11, 12, 13, 14, 15, 16, 17};
-    int n = sizeof(marks) / sizeof(marks[0]);
-    for (int i = n; i > 0; i--)
+    int arr[] = {5, 54, 23, 56, 21, 25, 56};
+    int size = sizeof(arr) / sizeof(arr[0]);
+    cout << "Before reversing the array " << endl;
+    for (int i = 0; i < size; i++)
     {
-        cout << marks[i] << endl;
+        cout << arr[i] << " ";
+    }
+
+    for (int i = 0, j = size - 1; i < size / 2 && j >= size / 2; i++, j--)
+    {
+        swap(arr[i], arr[j]);
+    }
+    cout << "\n \nAfter reversing the array " << endl;
+    for (int i = 0; i < size; i++)
+    {
+
+        cout << arr[i] << " ";
     }
 
     return 0;
