@@ -1,3 +1,5 @@
+/* program to reverse the elements inside the array*/
+
 #include <iostream>
 using namespace std;
 

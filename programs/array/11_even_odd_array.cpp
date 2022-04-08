@@ -1,23 +1,25 @@
+// program to find even and odd elements inside the element
+
 #include <iostream>
 using namespace std;
 
 int main()
 {
-    int marks[] = {10, 11, 12, 13, 14, 15, 16, 17};
-    int n = sizeof(marks) / sizeof(marks[0]);
-    cout << "even marks" << endl;
+    int arr[] = {10, 11, 12, 13, 14, 15, 16, 17};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    cout << "even arr" << endl;
     for (int i = 0; i < n; i++)
     {
 
-        if (marks[i] % 2 == 0)
-            cout << marks[i] << endl;
+        if (arr[i] % 2 == 0)
+            cout << arr[i] << endl;
     }
     cout << endl;
     cout << "odd" << endl;
     for (int j = 0; j < n; j++)
     {
-        if (marks[j] % 2 != 0)
-            cout << marks[j] << endl;
+        if (arr[j] % 2 != 0)
+            cout << arr[j] << endl;
     }
 
     return 0;

@@ -1,3 +1,5 @@
+/* program to find minimum and maximum element inside the array*/
+
 #include <iostream>
 using namespace std;
 

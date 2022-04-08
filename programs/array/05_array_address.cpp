@@ -1,3 +1,5 @@
+/* program to find the array address*/
+
 #include <iostream>
 using namespace std;
 

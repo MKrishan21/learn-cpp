@@ -1,3 +1,6 @@
+/* ....program to check weather the number given by
+the user is prime or not.....*/
+
 #include <iostream>
 using namespace std;
 

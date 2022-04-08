@@ -1,3 +1,5 @@
+// program to find the index of maximum element in the array
+
 #include <iostream>
 using namespace std;
 
