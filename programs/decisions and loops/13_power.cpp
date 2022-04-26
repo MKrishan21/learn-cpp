@@ -1,3 +1,5 @@
+// C++ Program to Calculate Power of a Number
+
 #include <iostream>
 #include <cmath>
 using namespace std;
