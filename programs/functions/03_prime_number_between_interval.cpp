@@ -1,3 +1,5 @@
+// c++ prorams to display prime numbers between two intervals using function
+
 #include <iostream>
 using namespace std;
 bool isprime(int num)
